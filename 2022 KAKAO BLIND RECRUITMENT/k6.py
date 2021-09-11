@@ -1,3 +1,5 @@
+### 정확도는 맞으나 효율성이 0점 맞은 문제 ---> 다시 고민해보자 ###
+
 def solution(board, skill):
     cnt = 0
     for e in skill:
@@ -16,4 +18,5 @@ def solution(board, skill):
     answer = cnt
     return answer
 
-print(solution([[1,2,3],[4,5,6],[7,8,9]], [[1,1,1,2,2,4],[1,0,0,1,1,2],[2,2,0,2,0,100]]))
+# test 용
+# print(solution([[1,2,3],[4,5,6],[7,8,9]], [[1,1,1,2,2,4],[1,0,0,1,1,2],[2,2,0,2,0,100]])) 
